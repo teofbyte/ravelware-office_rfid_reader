@@ -1,0 +1,21 @@
+dependencies:
+  garag/esp-idf-pn532:
+    component_hash: 72354942a2736b1bb95b23012c142e036732885af7b2a041484f1920cd835a8b
+    dependencies:
+    - name: idf
+      require: private
+      version: ^5.2
+    source:
+      registry_url: https://components.espressif.com/
+      type: service
+    version: 0.2.0
+  idf:
+    source:
+      type: idf
+    version: 5.5.0
+direct_dependencies:
+- garag/esp-idf-pn532
+- idf
+manifest_hash: d07c6f14ac0f93740b6a2bb59908d01b45518aaf89b8316f7ca1fa92a044e2ce
+target: esp32
+version: 2.0.0
